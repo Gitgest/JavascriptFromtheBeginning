@@ -7,3 +7,9 @@ function dateChange() {
 function fontSizeChange() {
     document.getElementById('p1').style.fontSize = '25px';
 }
+function writeHTML(){
+    document.write("document.write has been called");
+}
+//scripts not in a function will just run on the site regardless of anything else on the page.
+// The script below will be called and inserted into the last possible spot in the HTML.
+document.write(5 + 6);
