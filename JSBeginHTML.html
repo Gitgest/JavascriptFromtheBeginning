@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Following the Javascript tutorial on w3schools.com -->
+<h1>Javascript site, examples.</h1>
+
+<p1 id="p1">Paragraph1<br></p1>
+
+<p2><br>paragraph2<br></p2>
+
+<!-- Button should change p1 to the current date when clicked. -->
+<!-- Also changes the font size -->
+<!-- Should be able to turn into a function that calls the date() method instead. -->
+<!--<br><button id="button1" onclick="document.getElementById('p1').innerHTML = Date(); document.getElementById('p1').style.fontSize = '25px'";>Button1 text</button>-->
+
+<!-- button1 now uses method calls instead -->
+<br><button id="button1" onclick=dateChange();fontSizeChange();>Button1 text</button>
+
+
+<!-- turn onclick into a method call in a script -->
+<!-- Putting into external script instead, easier to maintain -->
+<script src="JSbeginJavascript.js"></script>
+
+</body>
+</html>
